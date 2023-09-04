@@ -4,7 +4,8 @@ import App from './App'
 import './styles/main.css'
 import ErrorBoundary from './components/ErrorBoundary'
 import * as algokit from '@algorandfoundation/algokit-utils'
-console.log(algokit)
+import * as testing from '@algorandfoundation/algokit-utils/testing'
+console.log(algokit, testing)
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <ErrorBoundary>
